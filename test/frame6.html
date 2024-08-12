@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .div_6_1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 64px 40px;
+            gap: 70px;
+            width: 1440px;
+            height: 1017.44px;
+            background: #020F14;
+        }
+
+        .div_6_2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 40px;
+            width: 1360px;
+            height: 323px;
+        }
+
+        .div_6_3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 16px;
+            width: 640px;
+            height: 123px;
+        }
+
+        .div_6_4 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0;
+            gap: 16px;
+            width: 1360px;
+            height: 160px;
+        }
+
+        .div_6_5, .div_6_6, .div_6_7, .div_6_8 {
+            position: relative;
+            width: 328px;
+            height: 160px;
+            background: #171D28;
+            border-radius: 16px;
+        }
+
+        .founder-and-president-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 37px;
+            background: #171D28;
+            border-radius: 8px;
+        }
+
+        .founder-and-president {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.01em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .edward-dubinski {
+            width: 640px;
+            height: 70px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 70px;
+            line-height: 100%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+        }
+
+        .div_6_9 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 38px;
+            width: 910px;
+            height: 496.44px;
+        }
+	/* Container for images */
+.photos_6_1 {
+    position: relative;
+    width: 910px;
+    height: 402.44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frame 1 */
+.frame1 {
+    position: absolute;
+    width: 753.1px;
+    height: 402.44px;
+    z-index: 2; /* Ensure frame1 is on top */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+	radius:12.5517px;
+}
+
+/* Frame 2 */
+.frame2 {
+    position: absolute;
+    width: 289.55px;
+    height: 297.44px;
+    right: 0px; /* Move frame2 to the right of frame1 */
+    z-index: 1; /* Ensure it is below frame1 */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+}
+
+/* Frame 3 */
+.frame3 {
+    position: absolute;
+    width: 289.55px;
+    height: 297.44px;
+    left: 0px; /* Move frame3 to the left of frame1 */
+    z-index: 1; /* Ensure it is below frame1 */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+}
+        .img_6_1 {
+  aspect-ratio: 2.26;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 0px 0px 0px 0px;
+}
+@media (max-width: 991px) {
+  .img_6_1 {
+    max-width: 100%;
+  }
+}
+.div_6_10 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+width: 212px;
+height: 56px;
+}
+.img_6_12 {
+ width: 56px;
+height: 56px;
+}
+.div_6_11 {
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 48px;
+height: 8px;
+}
+.div_6_12 {
+  background-color: var(--primary, #5512b0);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+  fill: var(--primary, #5512b0);
+}
+.div_6_13 {
+  background-color: rgba(23, 29, 40, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+}
+.div_6_14 {
+  background-color: rgba(23, 29, 40, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+}
+.img_6_3 {
+width: 56px;
+height: 56px;
+
+}
+
+        .years-experience {
+            position: absolute;
+            width: 157px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		.finance-investment {
+            position: absolute;
+            width: 296px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		.years-experience-11 {
+           position: absolute;
+            width: 150px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		 .advised-30 {
+		 position: absolute;
+            width: 199px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+			}
+			.million-15 {
+           	 position: absolute;
+            width: 296px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		 .investment-banking {
+            position: absolute;
+            width: 294px;
+            height: 42px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		.top-investment-firms {
+             position: absolute;
+            width: 286px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		 .assets-management {
+             position: absolute;
+            width: 231px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+		 
+    </style>
+</head>
+<body>
+<div class="div_6_1">
+    <div class="div_6_2">
+        <div class="div_6_3">
+            <div class="founder-and-president-wrapper">
+                <div class="founder-and-president">Founder and President</div>
+            </div>
+            <div class="edward-dubinski">Edward Dubinski</div>
+        </div>
+        <div class="div_6_4">
+            <div class="div_6_5">
+                <div class="years-experience">28+ Years</div>
+                <div class="finance-investment">in finance and investment</div>
+            </div>
+            <div class="div_6_6">
+                <div class="years-experience-11">11 Years</div>
+                <div class="investment-banking">
+                    in investment banking, including 7+ years on Wall Street
+                </div>
+            </div>
+            <div class="div_6_7">
+                <div class="advised-30">Advised 30+</div>
+                <div class="top-investment-firms">
+                    world’s top investment firms
+                </div>
+            </div>
+            <div class="div_6_8">
+                <div class="million-15">$15+ million</div>
+                <div class="assets-management">in assets under management</div>
+            </div>
+        </div>
+    </div>
+    <div class="div_6_9">
+<div class="photos_6_1">
+    <img src="assets/img/frame6.1.png" alt="Image 1" class="frame1">
+    <img src="assets/img/frame6.2.png" alt="Image 2" class="frame2">
+    <img src="assets/img/frame6.3.png" alt="Image 3" class="frame3">
+</div>
+
+
+<div class="div_6_10">
+  <img
+    loading="lazy"
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/8eccf46d3a5c943e06e8d43755459f0f24f866dbf496ac5ac3053263baff9092?placeholderIfAbsent=true&apiKey=af0b9e93c8c44111959c54f34d6fbd4e"
+    class="img_6_2"
+  />
+  <div class="div_6_11">
+    <div class="div_6_12"></div>
+    <div class="div_6_13"></div>
+    <div class="div_6_14"></div>
+  </div>
+  <img
+    loading="lazy"
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/7de0b58733aa6203a128e2223ca8e2c9f1cb3d004213573034f96e341165e9a7?placeholderIfAbsent=true&apiKey=af0b9e93c8c44111959c54f34d6fbd4e"
+    class="img_6_3"
+  />
+</div>
+</div>
+</div>
+</body>
+</html>

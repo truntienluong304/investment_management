@@ -1,0 +1,1347 @@
+body {
+  background-color: #000;
+  color: #fff;
+  width: 1440px;
+  height: 953px;
+}
+
+.container {
+  padding: 0 40px 128px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-part1 {
+  width: 11px;
+  height: 11px;
+  background-color: rgba(204, 204, 204, 1);
+  margin-left: 18px;
+}
+
+.logo-part2 {
+  width: 18px;
+  height: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.company-name {
+  width: 92px;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 22.34px;
+  font-weight: 400;
+  line-height: 26.18px;
+  text-align: left;
+  margin-left: 7px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+}
+
+.content {
+  margin-top: 16px;
+}
+
+.top-image {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 32px;
+}
+
+.columns {
+  display: flex;
+  margin-top: 64px;
+  width: 1360px;
+  height: 337px;
+  gap: 16px;
+}
+
+.left-column {
+  width: 787px;
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.right-column {
+  width: 557px;
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.right-inner-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.your-guide-to-investment-success {
+  font-family: Roboto;
+  font-size: 90px;
+  line-height: 84.6px;
+}
+
+.expertise-in-ipo-pre-ipo-investments {
+  font-family: Roboto;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.img-2 {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.free-consultation {
+  font-family: Questrial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24.72px;
+  text-align: left;
+  color: rgba(2, 15, 20, 1);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 12px 12px 12px 24px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  width: 443px;
+  height: 68px;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.solar-arrow-up-linear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 44px;
+  padding: 16px 20px;
+  background-color: #5512b0;
+  border-radius: 24px;
+  gap: 8px;
+}
+
+.company-description {
+  font-family: Roboto;
+  width: 557px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(108, 115, 118, 1);
+  margin-bottom: 20px;
+}
+
+.statistics {
+  width: 557px;
+  height: 241px;
+  gap: 17px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  width: 270px;
+  height: 241px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dark-card {
+  background-color: #171d28;
+  color: #fff;
+}
+
+.light-card {
+  width: 270px;
+  height: 144px;
+  border-radius: 16px;
+  background-color: #fff;
+  color: #000;
+  flex-direction: column;
+}
+
+.light-card-2 {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 81px;
+  width: 270px;
+  border-radius: 16px;
+}
+
+.full-card {
+  grid-column: span 2;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-row {
+  margin-top: 20px;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.img-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #171d28;
+  border-radius: 0 0 16px 16px;
+}
+
+.img-6 {
+  width: 270px;
+  height: 81px;
+  object-fit: cover;
+  border-radius: 0 0 16px 16px;
+}
+
+.number {
+  font-size: 36px;
+  font-family: PP Neue Montreal;
+  width: 65px;
+  height: 43px;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 20px 100px;
+  }
+  .columns {
+    flex-direction: column;
+  }
+  .statistics {
+    grid-template-columns: 1fr;
+  }
+  .your-guide-to-investment-success {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .left-column,
+  .right-column {
+    flex-basis: 100%;
+  }
+}
+
+.div, .div-new {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 50px;
+  width: 1440px;
+  height: 804px;
+}
+
+.div-2, .div-2-new {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 804px;
+  width: 100%;
+  overflow: hidden;
+  padding: 64px 37px 450px;
+}
+
+@media (max-width: 991px) {
+  .div-2, .div-2-new {
+    max-width: 100%;
+    padding: 0 20px 100px;
+  }
+}
+
+.custom-img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ways-to-invest-with-fintelect {
+  position: relative;
+  color: rgba(2, 15, 20, 1);
+  letter-spacing: -1.4px;
+  align-self: start;
+  font: 500 70px/1 Roboto, sans-serif;
+  width: 1344px;
+  height: 70px;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .ways-to-invest-with-fintelect {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.div-3 {
+  position: relative;
+  margin: 69px 0 -90px;
+}
+
+@media (max-width: 991px) {
+  .div-3 {
+    max-width: 100%;
+    margin: 40px 0 10px;
+  }
+}
+
+.div-4 {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .div-4 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.custom-column {
+  display: flex;
+  line-height: normal;
+  width: 328px;
+  height: 151px;
+  border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .custom-column {
+    width: 100%;
+  }
+}
+
+.div-5 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: relative;
+  aspect-ratio: 2.172;
+  flex-grow: 1;
+  overflow: hidden;
+  align-items: start;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  padding: 24px 56px 24px 24px;
+}
+
+@media (max-width: 991px) {
+  .div-5 {
+    margin-top: 16px;
+    padding: 0 20px;
+  }
+}
+
+.num-01, .num-02, .num-03, .num-04{
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  width: 240px;
+  height: 19px;
+}
+
+.portfolio-management, .portfolio-management-2, .portfolio-management-3 {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-size: 26px;
+  margin-top: 24px;
+  width: 284px;
+  height: 60px;
+  font-family: Roboto;
+  line-height: 30.47px;
+  text-align: left;
+}
+
+.custom-column-2 {
+  display: flex;
+  line-height: normal;
+  width: 328px;
+  height: 151px;
+  border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .custom-column-2 {
+    width: 100%;
+  }
+}
+
+.div-6 {
+  border-radius: 16px;
+  background-color: rgba(23, 29, 40, 1);
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: start;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  width: 100%;
+  padding: 24px 66px 24px 24px;
+}
+
+@media (max-width: 991px) {
+  .div-6 {
+    margin-top: 16px;
+    padding: 0 20px;
+  }
+}
+
+.custom-column-3 {
+  display: flex;
+  line-height: normal;
+  width: 328px;
+  height: 151px;
+  border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .custom-column-3 {
+    width: 100%;
+  }
+}
+
+.div-7 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: relative;
+  aspect-ratio: 2.172;
+  flex-grow: 1;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  padding: 24px;
+}
+
+@media (max-width: 991px) {
+  .div-7 {
+    margin-top: 16px;
+    padding-left: 20px;
+  }
+}
+
+.custom-column-4 {
+  display: flex;
+  line-height: normal;
+  width: 328px;
+  height: 151px;
+  border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .custom-column-4 {
+    width: 100%;
+  }
+}
+
+.div-8 {
+  border-radius: 16px;
+  background-color: rgba(23, 29, 40, 1);
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: start;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  width: 100%;
+  padding: 24px 66px 24px 24px;
+}
+
+@media (max-width: 991px) {
+  .div-8 {
+    margin-top: 16px;
+    padding: 0 20px;
+  }
+}
+
+/* Additional CSS for new section */
+.div-added {
+  background-color: rgba(2, 15, 20, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 200px 40px;
+  gap: 46px;
+  width: 1440px;
+  height: 938px;
+}
+@media (max-width: 991px) {
+  .div-added {
+    padding: 100px 20px;
+  }
+}
+.div-2-added {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 142px;
+  width: 861px;
+  height: 538px;
+}
+@media (max-width: 991px) {
+  .div-2-added {
+    max-width: 100%;
+  }
+}
+.your-investments-are-in-stable-currencies {
+  margin: 0 auto;
+  width: 861px;
+  height: 140px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 100%;
+  /* or 70px */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .your-investments-are-in-stable-currencies {
+    font-size: 32px;
+  }
+}
+.div-3-added {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+  width: 423px;
+  height: 161.5px;
+}
+.img-added {
+  width: 276px;
+  height: 94.5px;
+}
+.in-fintelect-we-invest-exclusively-in-stable-markets-reliable-assets-and-currencies {
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 39px;
+  width: 423px;
+  height: 32px;
+}
+.div-4-added {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171d28;
+  border-radius: 32px;
+  width: 443px;
+  height: 538px;
+  flex-shrink: 0;
+  position: relative;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-family: 'PP Neue Montreal';
+  font-weight: 500;
+  background: linear-gradient(169.64deg, #c9bcfe 0%, #ff2fe4 92.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  width: 91px;
+  height: 150px;
+  z-index: 1;
+}
+.video-added {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+@media (max-width: 991px) {
+  .div-4-added {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    padding: 10px;
+  }
+  .centered {
+    font-size: 48px;
+  }
+  .video-added {
+    display: block;
+    max-width: 100%;
+  }
+}
+.div_5_1 {
+ display: flex;
+flex-direction: row;
+align-items: center;
+padding: 96px 40px;
+gap: 132px;
+
+width: 1440px;
+height: 640px;
+
+background: #FFFFFF;
+border-radius: 40px;
+}
+@media (max-width: 991px) {
+  .div_5_1{
+    padding: 0 20px;
+  }
+}
+.img_5_1{
+  width: 556px;
+height: 448px;
+
+background: #C9F4F4;
+border-radius: 16px;
+}
+
+.div_5_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 69px;
+  width: 672px;
+  height: 448px;
+}
+
+.div_5_3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 33px;
+  margin: 0 auto;
+  width: 672px;
+  height: 312px;
+}
+
+.fintelect-licensed-verifiable-dependable {
+  width: 672px;
+  height: 231px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #020F14;
+}
+
+.we-are-registered-and-licensed-check-our-license-to-confirm-our-reliability-and-professionalism {
+  width: 557px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #72797B;
+}
+
+.div_5_4{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 12px 24px;
+  gap: 60px;
+  width: 443px;
+  height: 68px;
+  border: 1px solid #D0D0D0;
+  border-radius: 40px;
+}
+
+.open-licence-link {
+  width: 181px;
+  height: 28px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #020F14;
+}
+
+.solar-arrow-up-linear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 86px;
+  height: 44px;
+  background: #5512B0;
+  border-radius: 24px;
+}
+.div_6_1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 64px 40px;
+            gap: 70px;
+            width: 1440px;
+            height: 1017.44px;
+            background: #020F14;
+        }
+
+        .div_6_2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 40px;
+            width: 1360px;
+            height: 323px;
+        }
+
+        .div_6_3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 16px;
+            width: 640px;
+            height: 123px;
+        }
+
+        .div_6_4 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0;
+            gap: 16px;
+            width: 1360px;
+            height: 160px;
+        }
+
+        .div_6_5, .div_6_6, .div_6_7, .div_6_8 {
+            position: relative;
+            width: 328px;
+            height: 160px;
+            background: #171D28;
+            border-radius: 16px;
+        }
+
+        .founder-and-president-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 37px;
+            background: #171D28;
+            border-radius: 8px;
+        }
+
+        .founder-and-president {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: -0.01em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .edward-dubinski {
+            width: 640px;
+            height: 70px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 70px;
+            line-height: 100%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+        }
+
+        .div_6_9 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 38px;
+            width: 910px;
+            height: 496.44px;
+        }
+	/* Container for images */
+.photos_6_1 {
+    position: relative;
+    width: 910px;
+    height: 402.44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frame 1 */
+.frame1 {
+    position: absolute;
+    width: 753.1px;
+    height: 402.44px;
+    z-index: 2; /* Ensure frame1 is on top */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+	radius:12.5517px;
+}
+
+/* Frame 2 */
+.frame2 {
+    position: absolute;
+    width: 289.55px;
+    height: 297.44px;
+    right: 0px; /* Move frame2 to the right of frame1 */
+    z-index: 1; /* Ensure it is below frame1 */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+}
+
+/* Frame 3 */
+.frame3 {
+    position: absolute;
+    width: 289.55px;
+    height: 297.44px;
+    left: 0px; /* Move frame3 to the left of frame1 */
+    z-index: 1; /* Ensure it is below frame1 */
+    border-radius: 15.6897px;
+    background-color: #F3F5F6;
+}
+        .img_6_1 {
+  aspect-ratio: 2.26;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 0px 0px 0px 0px;
+}
+@media (max-width: 991px) {
+  .img_6_1 {
+    max-width: 100%;
+  }
+}
+.div_6_10 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+width: 212px;
+height: 56px;
+}
+.img_6_12 {
+ width: 56px;
+height: 56px;
+}
+.div_6_11 {
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 48px;
+height: 8px;
+}
+.div_6_12 {
+  background-color: var(--primary, #5512b0);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+  fill: var(--primary, #5512b0);
+}
+.div_6_13 {
+  background-color: rgba(23, 29, 40, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+}
+.div_6_14 {
+  background-color: rgba(23, 29, 40, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 8px;
+  height: 8px;
+}
+.img_6_3 {
+width: 56px;
+height: 56px;
+
+}
+
+        .years-experience {
+            position: absolute;
+            width: 157px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		.finance-investment {
+            position: absolute;
+            width: 296px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		.years-experience-11 {
+           position: absolute;
+            width: 150px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		 .advised-30 {
+		 position: absolute;
+            width: 199px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+			}
+			.million-15 {
+           	 position: absolute;
+            width: 296px;
+            height: 43px;
+            left: 16px;
+            top: 16px;
+            font-family: 'PP Neue Montreal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+		 .investment-banking {
+            position: absolute;
+            width: 294px;
+            height: 42px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		.top-investment-firms {
+             position: absolute;
+            width: 286px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+		 .assets-management {
+             position: absolute;
+            width: 231px;
+            height: 21px;
+            left: 16px;
+            bottom: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            color: #FFFFFF;
+			}
+		.div_7_1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 60px 40px;
+gap: 131px;
+
+width: 1440px;
+height: 343px;
+
+background: #171D28;
+}
+@media (max-width: 991px) {
+  .div_7_1 {
+    padding: 0 20px;
+  }
+}
+.div_7_2 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 51px;
+
+width: 328px;
+height: 187.26px;
+}
+.div_7_3 {
+  display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 11.65px;
+
+width: 212.91px;
+height: 48.26px;
+}
+.logo_7_1{
+  display: flex;
+  flex-direction: column;
+  width: 48.26px;
+height: 48.26px;
+gap: 0px;
+border-radius: 3.33px 0px 0px 0px;
+}
+.div_7_4 {
+  background-color: rgba(204, 204, 204, 1);
+  align-self: end;
+  display: flex;
+  width: 18.3px;
+  height: 18.3px;
+  border-radius: 3.33px 0px 0px 0px;
+
+}
+.div_7_5 {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  width: 29.95px;
+  height: 29.95px;
+   border-radius: 3.33px 0px 0px 0px;
+}
+.link-→-fintalect {
+width: 153px;
+height: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 37.1795px;
+line-height: 44px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.div_7_6 {
+  display: flex;
+  margin-top: 51px;
+  width: 100%;
+  max-width: 328px;
+  flex-direction: column;
+  justify-content: start;
+}
+@media (max-width: 991px) {
+  .div_7_6 {
+    margin-top: 40px;
+  }
+}
+.get-qualified-assistance-online {
+  width: 328px;
+height: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.div_7_7 {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  margin-top: 12px;
+  width: 100%;
+  align-items: center;
+  gap: 40px 86px;
+  justify-content: space-between;
+  padding: 4px 8px 4px 24px;
+}
+@media (max-width: 991px) {
+  .div_7_7 {
+    padding-left: 20px;
+  }
+}
+.free-consultation_2 {
+  width: 124px;
+height: 19px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #020F14;
+}
+.solar-arrow-up-linear {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+width: 86px;
+height: 44px;
+
+/* primary */
+background: #5512B0;
+border-radius: 24px;
+}
+.vector {
+  display: flex;
+  min-height: 12px;
+  width: 24px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+.div_7_8 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 37px;
+
+width: 328px;
+height: 223px;
+
+}
+.fintelect-is-reliable-and-has-a-proven-long-experience-in-the-financial-marketplace {
+  width: 213px;
+height: 104px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+.fintelect-all-rights-reserved {
+  width: 328px;
+height: 21px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+letter-spacing: -0.01em;
+
+color: rgba(255, 255, 255, 0.8);
+}
+@media (max-width: 991px) {
+  .fintelect-all-rights-reserved{
+    margin-top: 40px;
+  }
+}
+.div_7_9 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+width: 443px;
+height: 223px;
+}
+@media (max-width: 991px) {
+  .div_7_9 {
+    max-width: 100%;
+  }
+}
+.help-fintelect-com {
+ width: 443px;
+height: 75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 150%;
+/* identical to box height, or 75px */
+letter-spacing: -0.01em;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .help-fintelect-com {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.div_7_10 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 328px;
+height: 88px;
+}
+@media (max-width: 991px) {
+  .div_7_10 {
+    margin-top: 40px;
+  }
+}
+.div_7_11 {
+ display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+width: 328px;
+height: 52px;
+background: #FFFFFF;
+border-radius: 40px;
+padding: 4px 8px 4px 24px;
+}
+@media (max-width: 991px) {
+  .div_7_11 {
+    padding-left: 20px;
+  }
+}
+.img_7_1{
+  aspect-ratio: 2;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+}
